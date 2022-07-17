@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Love_sing.iml" filepath="$PROJECT_DIR$/Love_sing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_admin/service_admin.iml" filepath="$PROJECT_DIR$/service/service_admin/service_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_app/service_app.iml" filepath="$PROJECT_DIR$/service/service_app/service_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_gateway/service_gateway.iml" filepath="$PROJECT_DIR$/service_gateway/service_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service_wechat/service_wechat.iml" filepath="$PROJECT_DIR$/service/service_wechat/service_wechat.iml" />
+    </modules>
+  </component>
+</project>

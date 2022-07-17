@@ -1,0 +1,25 @@
+{
+	"containerPort": 80,                            
+	"minNum": 0,                                    
+	"maxNum": 5,                                   
+	"cpu": 1,                                    	
+	"mem": 1,
+	"policyType": "cpu",                            
+	"policyThreshold": 50,
+	"policyDetails": [
+		{
+			"PolicyType": "cpu",
+			"PolicyThreshold": 80
+		},
+		{
+			"PolicyType": "mem",
+			"PolicyThreshold": 85
+		}
+	],
+	"envParams": {},                                
+	"customLogs": "stdout",                         
+	"dataBaseName":"Love_sing",
+	"executeSQLs":[
+		"CREATE DATABASE IF NOT EXISTS Love_sing;"
+	]
+}

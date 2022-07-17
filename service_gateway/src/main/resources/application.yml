@@ -1,0 +1,32 @@
+server:
+  port: 8333
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: service-admin
+        uri: lb://service-admin
+        predicates:
+        - Name: Path
+          args:
+            path: /admin/**
+      - id: service-wechat
+        uri: lb://service-wechat
+        predicates:
+        - Name: Path
+          args:
+            path: /api/wechat/**
+      - id: service-app
+        uri: lb://service-app
+        predicates:
+        - Name: Path
+          args:
+            path: /api/app/**

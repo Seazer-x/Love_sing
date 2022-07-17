@@ -1,0 +1,16 @@
+GET http://localhost:8333/api/app/hello
+
+<> 2022-07-17T141924.200.json
+
+###
+
+GET http://localhost:8333/api/app/hello
+
+<> 2022-07-17T141804.500.json
+
+###
+
+GET http://localhost:8333/api/app/hello
+
+###
+
