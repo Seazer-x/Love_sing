@@ -56,11 +56,14 @@ public class UserController {
         }
         User user = userService.getUser(userVo.getUsername());
         if (user == null) {
-            return Result.fail(null).message("用户不存在");
+            return Result.fail(null).message("用户不存在!");
+        }
+        if (user.getLocked() == 1) {
+            return Result.fail(null).message("账户已锁定!");
         }
         Md5Hash md5Hash = new Md5Hash(userVo.getPassword(), user.getSalt(), 1024);
         if (!md5Hash.toHex().equals(user.getPassword())) {
-            return Result.fail(null).message("密码错误");
+            return Result.fail(null).message("密码错误!");
         }
         if (JedisUtil.exists("shiro:cache:" + userVo.getUsername())) {
             JedisUtil.delKey("shiro:cache:" + userVo.getUsername());

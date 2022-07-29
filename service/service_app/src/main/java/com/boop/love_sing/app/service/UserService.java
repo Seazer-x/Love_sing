@@ -17,4 +17,6 @@ public interface UserService extends IService<User> {
     User getUser(String username);
 
     Boolean register(UserVo user);
+
+    String getUserId(String username);
 }

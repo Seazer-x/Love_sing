@@ -22,7 +22,7 @@ public class CodeGet {
         String projectPath = System.getProperty("user.dir");
 
         //gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setOutputDir("/Users/fubaiping/Desktop/Love_sing/common"+"/src/main/java");
+        gc.setOutputDir("/Users/fubaiping/Desktop/Love_sing/service/service_app"+"/src/main/java");
 
         gc.setServiceName("%sService");	//去掉Service接口的首字母I
         gc.setAuthor("fubaiping");
@@ -40,18 +40,18 @@ public class CodeGet {
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("common"); //模块名
+        pc.setModuleName("app"); //模块名
         pc.setParent("com.boop.love_sing"); //包名
 //        pc.setController("controller");
-        pc.setEntity("entity");
-//        pc.setService("service");
-//        pc.setMapper("mapper");
+        pc.setService("service");
+        pc.setMapper("mapper");
+//        pc.setEntity("entity");
         mpg.setPackageInfo(pc);
 
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
 
-        strategy.setInclude("perms","perms_role"); //要生成的表名
+        strategy.setInclude("user_role"); //要生成的表名
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 

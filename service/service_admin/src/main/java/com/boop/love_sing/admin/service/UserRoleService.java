@@ -1,16 +1,16 @@
 package com.boop.love_sing.admin.service;
 
+import com.boop.love_sing.common.entity.UserRole;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.boop.love_sing.common.entity.Role;
 
 /**
  * <p>
- * 角色表 服务类
+ * 用户角色表 服务类
  * </p>
  *
  * @author fubaiping
- * @since 2022-07-17
+ * @since 2022-07-29
  */
-public interface RoleService extends IService<Role> {
+public interface UserRoleService extends IService<UserRole> {
 
 }

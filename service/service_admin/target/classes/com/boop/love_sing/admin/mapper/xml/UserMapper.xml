@@ -22,11 +22,5 @@
         </collection>
     </resultMap>
 
-    <select id="getUser" resultMap="UserMap" parameterType="String">
-        SELECT `user`.*,role.`id` rid,role.name rname,role.title FROM `user`
-        LEFT JOIN user_role ON user_role.user_id=`user`.id
-        LEFT JOIN role ON user_role.role_id=role.id
-        WHERE `user`.username=#{username}
-    </select>
 
 </mapper>

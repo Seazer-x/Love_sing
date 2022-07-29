@@ -12,5 +12,4 @@ import com.boop.love_sing.common.entity.User;
  * @since 2022-07-21
  */
 public interface UserMapper extends BaseMapper<User> {
-    User getUser(String username);
 }

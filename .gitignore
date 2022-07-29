@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+/service_gateway/target/
+/service/service_app/target/
+/service/service_admin/target/
+/common/target/

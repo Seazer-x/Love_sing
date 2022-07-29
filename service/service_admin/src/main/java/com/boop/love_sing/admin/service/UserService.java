@@ -14,7 +14,9 @@ import com.boop.love_sing.common.vo.UserVo;
  */
 public interface UserService extends IService<User> {
 
-    User getUser(String username);
+    Boolean register(UserVo userVo);
 
-    Boolean register(UserVo user);
+    String getUserId(String username);
+
+
 }
