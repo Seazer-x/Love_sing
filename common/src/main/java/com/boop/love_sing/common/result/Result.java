@@ -1,5 +1,6 @@
 package com.boop.love_sing.common.result;
 
+import com.boop.love_sing.common.enums.ResultCode;
 import lombok.Data;
 
 //统一返回结果类
@@ -21,10 +22,10 @@ public class Result<T> {
         if(data != null) {
             result.setData(data);
         }
-        result.setResultCode(com.boop.love_sing.common.result.ResultCode.SUCCESS);
+        result.setResultCode(ResultCode.SUCCESS);
         return result;
     }
-    public void setResultCode(com.boop.love_sing.common.result.ResultCode code) {
+    public void setResultCode(ResultCode code) {
         this.code = code.code();
         this.message = code.message();
     }
@@ -34,7 +35,7 @@ public class Result<T> {
         if(data != null) {
             result.setData(data);
         }
-        result.setResultCode(com.boop.love_sing.common.result.ResultCode.ERROR);
+        result.setResultCode(ResultCode.ERROR);
         return result;
     }
 

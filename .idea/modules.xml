@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/service/service_admin/service_admin.iml" filepath="$PROJECT_DIR$/service/service_admin/service_admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service_app/service_app.iml" filepath="$PROJECT_DIR$/service/service_app/service_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_gateway/service_gateway.iml" filepath="$PROJECT_DIR$/service_gateway/service_gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service/service_wechat/service_wechat.iml" filepath="$PROJECT_DIR$/service/service_wechat/service_wechat.iml" />
     </modules>
   </component>
 </project>

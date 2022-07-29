@@ -1,16 +1,282 @@
-GET http://localhost:8333/api/app/hello
+GET http://localhost:8333/app/user/selectUser/fubaiping
 
-<> 2022-07-17T141924.200.json
-
-###
-
-GET http://localhost:8333/api/app/hello
-
-<> 2022-07-17T141804.500.json
+<> 2022-07-27T121828.500.json
 
 ###
 
-GET http://localhost:8333/api/app/hello
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222323.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222235.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222144.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222133.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222047.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T222032.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T221800.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T221003.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T220616.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T220516.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T220419.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/fubaiping
+
+<> 2022-07-26T215043.404.json
+
+###
+
+GET http://localhost:8333/app/user/selectUser/{{username}}
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T193955.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T193751.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T193648.200.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T193441.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T193300.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T191739.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T191544.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T191317.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T185812.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T185114.500.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/fubaiping
+
+<> 2022-07-26T184758.404.json
+
+###
+
+GET http://localhost:8333/app/user/selectRole/1
+
+<> 2022-07-26T184742.404.json
+
+###
+
+GET https://localhost:8333/app/user/selectRole/1
+
+###
+
+GET https://localhost:8333/app/user/selectRole
+
+###
+
+GET https://localhost:8333/app/user/selectRole
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T221716.200.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T221651.503.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T221637.503.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T221536.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T220953.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T220855.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T220434.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T220350.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T215914.500.json
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T215826.500.json
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+<> 2022-07-17T215725.500.json
+
+###
+
+GET http://localhost:8333/app/user/hello
+
+<> 2022-07-17T215705.503.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T215048.500.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T215030.503.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T215020.503.json
+
+###
+
+POST http://localhost:8333/app/user/add
+
+<> 2022-07-17T214611.500.json
 
 ###
 

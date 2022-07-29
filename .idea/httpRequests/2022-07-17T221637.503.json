@@ -1,0 +1,8 @@
+{
+  "timestamp": "2022-07-17T14:16:37.060+0000",
+  "path": "/app/user/add",
+  "status": 503,
+  "error": "Service Unavailable",
+  "message": "Unable to find instance for service-app",
+  "requestId": "3f3d6d27"
+}

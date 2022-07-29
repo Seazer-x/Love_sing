@@ -10,7 +10,6 @@
         <module name="service_gateway" />
         <module name="service_app" />
         <module name="service_admin" />
-        <module name="service_wechat" />
         <module name="common" />
       </profile>
     </annotationProcessing>

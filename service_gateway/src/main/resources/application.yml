@@ -18,15 +18,9 @@ spring:
         - Name: Path
           args:
             path: /admin/**
-      - id: service-wechat
-        uri: lb://service-wechat
-        predicates:
-        - Name: Path
-          args:
-            path: /api/wechat/**
       - id: service-app
         uri: lb://service-app
         predicates:
         - Name: Path
           args:
-            path: /api/app/**
+            path: /api/user/**

@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "id": "1",
+    "username": "fubaiping",
+    "roles": [
+      {
+        "name": "user"
+      },
+      {
+        "name": "admin"
+      }
+    ]
+  }
+}

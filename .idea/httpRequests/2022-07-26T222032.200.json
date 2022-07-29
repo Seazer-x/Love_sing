@@ -1,0 +1,28 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "id": "1",
+    "createdTime": "2022-07-26 18:31:22",
+    "updatedTime": "2022-07-26 18:31:25",
+    "username": "fubaiping",
+    "roles": [
+      {
+        "id": "2",
+        "name": "user",
+        "title": "用户"
+      },
+      {
+        "id": "1",
+        "name": "admin",
+        "title": "管理员"
+      }
+    ],
+    "nickname": "管理员",
+    "password": "123456",
+    "gender": "FEMALE",
+    "locked": 0,
+    "lastLoginIp": "184.166.15.15",
+    "lastLoginTime": "2022-07-26T18:31:20"
+  }
+}
